@@ -258,7 +258,7 @@ Class injects plugin preferences into AndroidManifest.xml file.
   function createIntentFilter(host, scheme, pathName) {
     var intentFilter = {
       '$' : {
-        'android:autoVerify': 'true'
+        //'android:autoVerify': 'true'
       },
       'action': [{
         '$': {
